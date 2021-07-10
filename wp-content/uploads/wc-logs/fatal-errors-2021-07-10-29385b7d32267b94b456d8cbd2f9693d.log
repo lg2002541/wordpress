@@ -1,0 +1,166 @@
+2021-07-10T02:54:12+00:00 CRITICAL Uncaught ValueError: range(): Argument #3 ($step) must not exceed the specified range in C:\xampp\htdocs\wordpress\wp-content\plugins\food-store\includes\wfs-core-functions.php:631
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\food-store\includes\wfs-core-functions.php(631): range(1625900400, 1625954400, 0)
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\food-store\includes\class-wfs-services.php(80): wfs_get_store_timing('delivery')
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): WFS_Services->set_default_cookies('')
+#3 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\wordpress\wp-settings.php(560): do_action('init')
+#6 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\wordpress\wp-cron.php(44): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\food-store\includes\wfs-core-functions.php on line 631
+
+2021-07-10T02:54:47+00:00 CRITICAL Uncaught ValueError: range(): Argument #3 ($step) must not exceed the specified range in C:\xampp\htdocs\wordpress\wp-content\plugins\food-store\includes\wfs-core-functions.php:634
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\food-store\includes\wfs-core-functions.php(634): range(1625900400, 1625954400, 0)
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\food-store\includes\class-wfs-services.php(80): wfs_get_store_timing('pickup')
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): WFS_Services->set_default_cookies('')
+#3 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\wordpress\wp-settings.php(560): do_action('init')
+#6 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\wordpress\wp-admin\edit.php(10): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\food-store\includes\wfs-core-functions.php on line 634
+
+2021-07-10T02:56:51+00:00 CRITICAL Uncaught ValueError: range(): Argument #3 ($step) must not exceed the specified range in C:\xampp\htdocs\wordpress\wp-content\plugins\food-store\includes\wfs-core-functions.php:634
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\food-store\includes\wfs-core-functions.php(634): range(1625900400, 1625954400, 0)
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\food-store\includes\class-wfs-services.php(80): wfs_get_store_timing('pickup')
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): WFS_Services->set_default_cookies('')
+#3 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\wordpress\wp-settings.php(560): do_action('init')
+#6 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\food-store\includes\wfs-core-functions.php on line 634
+
+2021-07-10T02:56:59+00:00 CRITICAL Uncaught ValueError: range(): Argument #3 ($step) must not exceed the specified range in C:\xampp\htdocs\wordpress\wp-content\plugins\food-store\includes\wfs-core-functions.php:634
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\food-store\includes\wfs-core-functions.php(634): range(1625900400, 1625954400, 0)
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\food-store\includes\class-wfs-services.php(80): wfs_get_store_timing('pickup')
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): WFS_Services->set_default_cookies('')
+#3 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\wordpress\wp-settings.php(560): do_action('init')
+#6 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\wordpress\wp-admin\index.php(10): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\food-store\includes\wfs-core-functions.php on line 634
+
+2021-07-10T02:59:30+00:00 CRITICAL Uncaught ValueError: range(): Argument #3 ($step) must not exceed the specified range in C:\xampp\htdocs\wordpress\wp-content\plugins\food-store\includes\wfs-core-functions.php:634
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\food-store\includes\wfs-core-functions.php(634): range(1625900400, 1625954400, 0)
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\food-store\includes\class-wfs-services.php(80): wfs_get_store_timing('pickup')
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): WFS_Services->set_default_cookies('')
+#3 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\wordpress\wp-settings.php(560): do_action('init')
+#6 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\wordpress\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#10 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\food-store\includes\wfs-core-functions.php on line 634
+
+2021-07-10T03:00:58+00:00 CRITICAL Uncaught ValueError: range(): Argument #3 ($step) must not exceed the specified range in C:\xampp\htdocs\wordpress\wp-content\plugins\food-store\includes\wfs-core-functions.php:634
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\food-store\includes\wfs-core-functions.php(634): range(1625900400, 1625954400, 0)
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\food-store\includes\class-wfs-services.php(80): wfs_get_store_timing('pickup')
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): WFS_Services->set_default_cookies('')
+#3 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\wordpress\wp-settings.php(560): do_action('init')
+#6 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\wordpress\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#10 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\food-store\includes\wfs-core-functions.php on line 634
+
+2021-07-10T03:46:51+00:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($function) must be a valid callback, function "food_grocery_store_customize_partial_blogdescription" not found or invalid function name in C:\xampp\htdocs\wordpress\wp-includes\customize\class-wp-customize-partial.php:221
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\customize\class-wp-customize-selective-refresh.php(371): WP_Customize_Partial->render(Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): WP_Customize_Selective_Refresh->handle_render_partials_request('')
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(13): do_action('template_redire...')
+#5 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\customize\class-wp-customize-partial.php on line 221
+
+2021-07-10T05:03:47+00:00 CRITICAL Uncaught TypeError: abs(): Argument #1 ($num) must be of type int|float, string given in C:\xampp\htdocs\wordpress\wp-content\themes\bayleaf\lib\customizer\customize-register.php:355
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\bayleaf\lib\customizer\customize-register.php(355): abs('')
+#1 C:\xampp\htdocs\wordpress\wp-content\themes\bayleaf\lib\customizer\customize-register.php(286): bayleaf_sanitize_number('', Object(WP_Customize_Setting), Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): bayleaf_sanitization('', Object(WP_Customize_Setting))
+#3 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(212): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\wordpress\wp-includes\class-wp-customize-setting.php(575): apply_filters('customize_sanit...', '', Object(WP_Customize_Setting))
+#5 C:\xampp\htdocs\wordpress\wp-includes\class-wp-customize-manager.php(1831): WP_Customize_Setting->sanitize('')
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-customize-setting.php(554): WP_Customize_Manager->post_value(Object(WP_Customize_Setting), Object(stdClass))
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-customize-setting.php(339): WP_Customize_Setting->post_value(Object(stdClass))
+#8 C:\xampp\htdocs\wordpress\wp-includes\class-wp-customize-manager.php(937): WP_Customize_Setting->preview()
+#9 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): WP_Customize_Manager->wp_loaded('')
+#10 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#11 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#12 C:\xampp\htdocs\wordpress\wp-settings.php(582): do_action('wp_loaded')
+#13 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\wordpress\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#17 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\bayleaf\lib\customizer\customize-register.php on line 355
+
+2021-07-10T05:03:53+00:00 CRITICAL Uncaught TypeError: abs(): Argument #1 ($num) must be of type int|float, string given in C:\xampp\htdocs\wordpress\wp-content\themes\bayleaf\lib\customizer\customize-register.php:355
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\bayleaf\lib\customizer\customize-register.php(355): abs('')
+#1 C:\xampp\htdocs\wordpress\wp-content\themes\bayleaf\lib\customizer\customize-register.php(286): bayleaf_sanitize_number('', Object(WP_Customize_Setting), Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): bayleaf_sanitization('', Object(WP_Customize_Setting))
+#3 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(212): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\wordpress\wp-includes\class-wp-customize-setting.php(575): apply_filters('customize_sanit...', '', Object(WP_Customize_Setting))
+#5 C:\xampp\htdocs\wordpress\wp-includes\class-wp-customize-manager.php(1831): WP_Customize_Setting->sanitize('')
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-customize-setting.php(554): WP_Customize_Manager->post_value(Object(WP_Customize_Setting), Object(stdClass))
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-customize-setting.php(339): WP_Customize_Setting->post_value(Object(stdClass))
+#8 C:\xampp\htdocs\wordpress\wp-includes\class-wp-customize-manager.php(937): WP_Customize_Setting->preview()
+#9 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): WP_Customize_Manager->wp_loaded('')
+#10 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#11 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#12 C:\xampp\htdocs\wordpress\wp-settings.php(582): do_action('wp_loaded')
+#13 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\wordpress\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#17 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\bayleaf\lib\customizer\customize-register.php on line 355
+
+2021-07-10T05:04:09+00:00 CRITICAL Uncaught TypeError: abs(): Argument #1 ($num) must be of type int|float, string given in C:\xampp\htdocs\wordpress\wp-content\themes\bayleaf\lib\customizer\customize-register.php:355
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\bayleaf\lib\customizer\customize-register.php(355): abs('')
+#1 C:\xampp\htdocs\wordpress\wp-content\themes\bayleaf\lib\customizer\customize-register.php(286): bayleaf_sanitize_number('', Object(WP_Customize_Setting), Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): bayleaf_sanitization('', Object(WP_Customize_Setting))
+#3 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(212): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\wordpress\wp-includes\class-wp-customize-setting.php(575): apply_filters('customize_sanit...', '', Object(WP_Customize_Setting))
+#5 C:\xampp\htdocs\wordpress\wp-includes\class-wp-customize-manager.php(1831): WP_Customize_Setting->sanitize('')
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-customize-setting.php(554): WP_Customize_Manager->post_value(Object(WP_Customize_Setting), Object(stdClass))
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-customize-setting.php(339): WP_Customize_Setting->post_value(Object(stdClass))
+#8 C:\xampp\htdocs\wordpress\wp-includes\class-wp-customize-manager.php(937): WP_Customize_Setting->preview()
+#9 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): WP_Customize_Manager->wp_loaded('')
+#10 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#11 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#12 C:\xampp\htdocs\wordpress\wp-settings.php(582): do_action('wp_loaded')
+#13 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\wordpress\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#17 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\bayleaf\lib\customizer\customize-register.php on line 355
+
